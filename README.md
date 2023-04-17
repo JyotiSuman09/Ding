@@ -1,1 +1,1 @@
-site live at - https://shoplist-snow.netlify.app/
+<!-- site live at - https://ding-snow.netlify.app/ -->
