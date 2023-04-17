@@ -64,4 +64,6 @@ function appendItemToMsgListEl(item) {
 
     msgListEl.append(newEl)
     // MsgListEl.insertBefore(newEl, msgListEl.children[0]);
+
+    window.scrollTo(0, document.body.scrollHeight);
 }

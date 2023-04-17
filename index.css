@@ -28,6 +28,7 @@ input {
     text-align: center;
     font-family: 'Rubik', sans-serif;
     margin: 10px 0;
+    width: 65%;
 }
 
 
@@ -65,6 +66,8 @@ ul li {
     flex-grow: 1;
     text-align: center;
     width: 100%;
+    overflow-wrap: break-word;
+    width: 90%;
 }
 
 ul li:hover {
