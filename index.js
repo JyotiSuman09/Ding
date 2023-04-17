@@ -57,7 +57,7 @@ function appendItemToMsgListEl(item) {
     newEl.textContent = currentItem
     
     newEl.addEventListener('click', function() {
-        let exactLoactioninDB = ref(database, `shopList/${currentId}`)
+        let exactLoactioninDB = ref(database, `msgList/${currentId}`)
         console.log(currentId)
         remove(exactLoactioninDB)
     })
